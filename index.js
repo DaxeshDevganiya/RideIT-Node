@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 const expressSession=require('express-session');
-mongoose.connect("mongodb+srv://admin:admin@cluster0.vaoawh4.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("")
 app.listen(3000,(req,res)=>{
 console.log("Started at 3000");
 })
